@@ -99,7 +99,7 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .idea-5 span,
@@ -125,7 +125,7 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -30px;
+  top: -25px;
   left: 41.5%;
   /* transform: scale(0.1); */
 }
