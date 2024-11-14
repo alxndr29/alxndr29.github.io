@@ -18,6 +18,19 @@ window.addEventListener('load', () => {
     });
 });
 
+function handleClick() {
+    Swal.fire({
+        title: 'Opps! tombolnya ga bisa di pencet ya? Aaowkoakw',
+        icon: 'danger',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Y!',
+    }).then((result) => {
+        if (result.isConfirmed) {
+        } 
+    });
+}
 
 // animation timeline
 const animationTimeline = () => {
